@@ -103,8 +103,6 @@ public class ActivityList extends AppCompatActivity {
             });
 
 
-
-
         } catch (Exception ex) {
             ex.toString();
         }
@@ -209,6 +207,11 @@ public class ActivityList extends AppCompatActivity {
                     ListCountry.get(i).getNombre() + " - " +
                     ListCountry.get(i).getTelefono());
         }
+    }
+
+    public void goBack(View view) {
+
+        finish();
     }
 
 }

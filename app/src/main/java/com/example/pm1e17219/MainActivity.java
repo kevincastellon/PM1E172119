@@ -90,11 +90,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String nombre = edtNombre.getText().toString();
                 String telefono = edtTelefono.getText().toString();
+                String nota = edtNota.getText().toString();
+
                 if (nombre.isEmpty()) {
-                    edtNombre.setError("Este campo no puede estar vacío");
+                    edtNombre.setError("Debe escribir un nombre");
                 }
                 else if(telefono.isEmpty()) {
-                    edtTelefono.setError("Este campo no puede estar vacío");
+                    edtTelefono.setError("Debe escribir un telefono");
+                }
+                else if(nota.isEmpty()) {
+                    edtNota.setError("Debe escribir una nota");
                 }else{
                     AddContact();
                 }

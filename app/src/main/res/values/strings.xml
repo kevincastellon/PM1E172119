@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">PM1E17219</string>
     <string name="btnAgregarContacto">+</string>
+    <string name="btnregresar">Atras</string>
     <string-array name="country_array">
         <item>Honduras</item>
         <item>El Salvador</item>

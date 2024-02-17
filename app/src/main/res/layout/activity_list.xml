@@ -29,9 +29,12 @@
             android:id="@+id/btnBuscar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#00897B"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#547B55"
             android:text="Buscar"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button"
             tools:ignore="MissingConstraints" />
 
         <EditText
@@ -43,8 +46,10 @@
             android:hint="Buscar"
             android:inputType="text"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.23"
             app:layout_constraintStart_toEndOf="@+id/btnBuscar"
-            tools:ignore="MissingConstraints" />
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="94dp" />
 
         <LinearLayout
             android:id="@+id/linearLayout2"
@@ -61,7 +66,7 @@
                 android:id="@+id/btnCompartir"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#00897B"
+                android:backgroundTint="#547B55"
                 android:text="compartir contacto"
                 tools:ignore="MissingConstraints" />
 
@@ -69,7 +74,7 @@
                 android:id="@+id/btnVer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#00897B"
+                android:backgroundTint="#547B55"
                 android:text="          Ver Foto           "
                 tools:ignore="MissingConstraints" />
 
@@ -88,7 +93,7 @@
                 android:id="@+id/btnEliminar"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#00897B"
+                android:backgroundTint="#547B55"
                 android:text="  Eliminar contacto "
                 tools:ignore="MissingConstraints" />
 
@@ -96,9 +101,23 @@
                 android:id="@+id/btnActualizar"
                 android:layout_width="213dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#00897B"
+                android:backgroundTint="#547B55"
                 android:text="Actualizar contacto" />
         </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="305dp"
+            android:backgroundTint="#547B55"
+            android:onClick="goBack"
+            android:text="@string/btnregresar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.23"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="16dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
