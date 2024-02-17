@@ -11,7 +11,7 @@ public class ActivityFoto extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_vfoto);
+        setContentView(R.layout.activity_foto);
         imgGuardada = (ImageView) findViewById(R.id.ImgGuardada);
     }
 

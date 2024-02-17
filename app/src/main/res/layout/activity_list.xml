@@ -91,9 +91,10 @@
                 android:backgroundTint="#00897B"
                 android:text="  Eliminar contacto "
                 tools:ignore="MissingConstraints" />
+
             <Button
                 android:id="@+id/btnActualizar"
-                android:layout_width="wrap_content"
+                android:layout_width="213dp"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#00897B"
                 android:text="Actualizar contacto" />
